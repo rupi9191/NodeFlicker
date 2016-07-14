@@ -1,0 +1,21 @@
+{
+  "name": "Flickr Example",
+  "version": "0.0.0",
+  "authors": [
+    "rupi9191 <rupi.9191@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~3.1.0",
+    "bootstrap": "~3.3.6",
+    "components-font-awesome": "~4.6.3",
+    "handlebars": "~4.0.5"
+  }
+}

@@ -1,0 +1,24 @@
+<div class="search container">
+<!--
+  <div id="searchTag">
+    <input type="text" id="keyword">
+    <button class="btn btn-success" onclick="getPhotos()">Search</button>
+  </div>
+-->
+  <div class="row">
+    <div class="col-lg-6">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search for...">
+        <span class="input-group-btn">
+          <button class="btn btn-success" onclick="getPhotos()">Search</button>
+        </span>
+      </div><!-- /input-group -->
+    </div>
+  </div>
+</div>
+<div id="photos" class="container">
+  {{#each photos}}
+      <img src="{{this}}" class="photo">
+  {{/each}}
+</div>
+
